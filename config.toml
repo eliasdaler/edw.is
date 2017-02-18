@@ -1,0 +1,17 @@
+baseURL = 'https://eliasdaler.github.io'
+languageCode = 'en-us'
+title = 'Elias Daler'
+
+theme = 'etch'
+pygmentsUseClasses = true  # use class names instead of directly inserting color codes
+pygmentsCodeFences = true  # enable GitHub style code snippets
+
+[params]
+    highlight = true
+    copyright='© 2022 Elias Daler. All rights reserved.'
+
+[author]
+    name = 'Elias Daler'
+[outputFormats]
+    [outputFormats.RSS]
+        baseName = 'feed'
