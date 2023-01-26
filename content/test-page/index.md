@@ -17,3 +17,15 @@ Video:
 ```md
 {{</* video width="480px" label="label" mp4="video.mp4" */>}}
 ```
+
+Code:
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+    fmt.Println("Hello, world")
+}
+```
