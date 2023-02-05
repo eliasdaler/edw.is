@@ -26,7 +26,7 @@ The main mechanic is that you can draw on floors and paint stuff by hitting it w
 
 ## Start of development
 
-I've started to work on this game, because developing [Re:creation](https://eliasdaler.github.io/re-creation/) became too hard for me. It had gigantic scope and pretty detailed art, which took a long time to produce, so I've decided to make something simpler as my first game.
+I've started to work on this game, because developing Re:creation became too hard for me. It had gigantic scope and pretty detailed art, which took a long time to produce, so I've decided to make something simpler as my first game.
 
 It all started with this prototype art, which was highly inspired by [Minit](http://minitgame.com/):
 
@@ -82,7 +82,7 @@ It's also very easy to update to new versions of the libraries, here's the only 
 
 ## Cutscene system
 
-I've written an article about how I write cutscenes with coroutines [here](https://eliasdaler.github.io/how-to-implement-action-sequences-and-cutscenes/). It's pretty great! A lot of code was simplified and now I can easily write complex action sequences, multi-branch cutscenes and dialogue trees with it. So, with the code like this:
+I've written an article about how I write cutscenes with coroutines [here]({{< ref "/how-to-implement-action-sequences-and-cutscenes" >}}). It's pretty great! A lot of code was simplified and now I can easily write complex action sequences, multi-branch cutscenes and dialogue trees with it. So, with the code like this:
 
 ```lua
 local answer = girl:say('do_you_love_lua',

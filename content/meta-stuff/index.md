@@ -66,7 +66,7 @@ Output:
 
 Simple as that!
 
-One more example. In [my game](https://eliasdaler.github.io/re-creation/) I have `Animation` class registered. I also have a bunch of functions for [Dear ImGui](https://github.com/ocornut/imgui) which can automatically build GUI for me, so I can easily change animation parameters. I just do this:
+One more example. In my game, I have `Animation` class registered. I also have a bunch of functions for [Dear ImGui](https://github.com/ocornut/imgui) which can automatically build GUI for me, so I can easily change animation parameters. I just do this:
 
 ```cpp
 ImGui::Input(animation);

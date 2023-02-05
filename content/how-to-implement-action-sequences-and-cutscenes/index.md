@@ -7,8 +7,6 @@ draft: false
 
 ## Introduction
 
-[Russian translation](https://habr.com/post/427135/)
-
 This post will show ways of implementing actions sequences and cutscenes in video games. The code is written in Lua, but the patterns can be implemented with other languages (except the coroutine approach, because not all languages have coroutines).
 
 Action sequences frequently appear in games. In cutscenes, for example: a character approaches an enemy, says something, the enemy responds and so on.
@@ -18,7 +16,7 @@ Action sequences can be used when scripting NPC behavior and boss fights. For ex
 
 {{< toc >}}
 
-## The problem
+## The problems with game loops
 
 Unfortunately, standard game loop doesn't make it easy for us. Suppose we have this game loop:
 

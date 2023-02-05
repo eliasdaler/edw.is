@@ -1,3 +1,3 @@
-# eliasdaler.github.io
+# https://edw.is - Elias Daler's Website
 
-[Link](https://eliasdaler.github.io)
+[Link](https://edw.is)

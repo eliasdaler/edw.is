@@ -17,13 +17,16 @@ body {
     max-width: 75rem;
 }
 
+pre {
+    background: #f8f8f8;
+}
+
 header#banner {
     margin: 25px 0;
 }
 
 header#banner a {
     color: #313a3d;
-    text-decoration: none;
 }
 
 header#banner a:hover {
@@ -56,15 +59,6 @@ header#banner nav ul li {
 
 header#banner nav ul li a {
     color: #454545;
-}
-
-main#content a {
-    color: #007dfa;
-    text-decoration: none;
-}
-
-main#content a:hover {
-    text-decoration: underline;
 }
 
 main#content h1,
@@ -273,7 +267,7 @@ main#content div.highlight pre {
 
 main#content p code,
 main#content blockquote code {
-    background-color: #f6f6f6;
+    background-color: #f8f8f8;
     padding: .2em .4em;
     font-size: 90%;
 }

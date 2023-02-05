@@ -1,17 +1,34 @@
-baseURL = 'https://eliasdaler.github.io'
+baseURL = 'https://edw.is'
 languageCode = 'en-us'
+defaultContentLanguage = 'en'
 title = 'Elias Daler'
 
 theme = 'etch'
-pygmentsUseClasses = true  # use class names instead of directly inserting color codes
-pygmentsCodeFences = true  # enable GitHub style code snippets
 
 [params]
     highlight = true
-    copyright='© 2022 Elias Daler. All rights reserved.'
+    copyright = '' # TODO: proper string
+    description = "The personal website of Elias Daler about programming, technology and videogames"
 
 [author]
     name = 'Elias Daler'
 [outputFormats]
     [outputFormats.RSS]
         baseName = 'feed'
+
+[markup]
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = false
+    guessSyntax = false
+    hl_Lines = ""
+    lineAnchors = ""
+    lineNoStart = ""
+    lineNos = false
+    lineNumbersInTable = false
+    noClasses = false
+    style = ""
+    tabWidth = ""
+
+disableKinds = ["taxonomy", "taxonomyTerm"]
+[Taxonomies]
